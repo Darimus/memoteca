@@ -8,16 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ListarPensamentosComponent implements OnInit {
 
   listaPensamentos = [
-    {
-      conteudo: "Teste",
-      autoria: "Bruno Passos",
-      modelo: 'modelo3'
-    },
-    {
-      conteudo: "Teste",
-      autoria: "Bruno Passos",
-      modelo: 'modelo1'
-    }
+    /*     {
+          conteudo: "Teste",
+          autoria: "Bruno Passos",
+          modelo: 'modelo3'
+        },
+        {
+          conteudo: "Teste",
+          autoria: "Bruno Passos",
+          modelo: 'modelo1'
+        } */
   ];
 
   constructor() { }
