@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
 import { Pensamento } from './pensamento';
 
 @Injectable({
@@ -11,7 +13,11 @@ export class PensamentoService {
 
   constructor(private http: HttpClient) { }
 
-  listar() {
+  listar(): Observable<Pensamento[]> {
     return this.http.get<Pensamento[]>(this.API)
+  }
+
+  criar(pensameto: Pensamento): Observable<Pensamento> {
+    return this.http.post<Pensamento>(this.API, pensameto)
   }
 }
