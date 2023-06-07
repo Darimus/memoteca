@@ -1,10 +1,16 @@
 {
   "pensamentos": [
     {
-      "id": 2,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "conteudo": "Temos aqui uma máquina de combate, chamada Bruno Passos de Oliveira",
+      "autoria": "Karine Souza",
+      "modelo": "modelo1",
+      "id": 1
+    },
+    {
+      "conteudo": "Leãozão",
+      "autoria": "Bruno Passos",
+      "modelo": "modelo2",
+      "id": 2
     }
   ]
 }
